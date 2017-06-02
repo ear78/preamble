@@ -29,7 +29,7 @@ function firstLast() {
    }
 
    // total up all forms of the counts
-   var total = "T = " + t + " E = " + e + " T & E = " + both;
+   var total = "<div><span class='letters'>T : </span>" + t + "</div>" + "<div><span class='letters'> E : </span>" + e + "</div>" + "<span class='letters'>T & E : </span>" + both;
 
    // get element on page to print to page
    var print = document.getElementById('finalCount');
