@@ -1,0 +1,42 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 700px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.preamble-container {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.125);
+    -moz-box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.125);
+    box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.125);
+    padding: 0 10px;
+}
+
+.preamble-container p {
+    text-align: center;
+}
+
+.button {
+    width: 225px;
+    background: black;
+    color: white;
+    height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: montserrat;
+    line-height: 3.4;
+    margin: 40px auto;
+}
