@@ -16,12 +16,19 @@
             <div class="preamble-container">
                 <p>'We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.'</p>
             </div>
-            <div class="button" onclick="firstLast()">
+            <div class="button" onclick="showModal()">
                 Click To Count
             </div>
-            <p id="finalCount"></p>
+            <div class="line"></div>
+            <div id="modal">
+                <i onclick="closeModal()" class="fa fa-times close-modal" aria-hidden="true"></i>
+                <p id="finalCount"></p>
+            </div>
         </main>
 
+
+
+        <!-- SCRIPT TAGS -->
         <script type="text/javascript" src="scripts.js"></script>
     </body>
 </html>
