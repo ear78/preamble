@@ -12,7 +12,7 @@ function firstLast() {
   var both = 0; // initialize both total
 
   // split to array of substrings and set to lowercase
-  var splitStr = preamble.toLowerCase().split(" ");
+  var splitStr = preamble.split(" ");
 
   for(var i = 0; i < splitStr.length; i++){
     // find words that starts with 't'
